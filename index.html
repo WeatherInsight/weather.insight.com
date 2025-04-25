@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Weather Insight</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Insight</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>🌦️ Weather Insight</h1>
-    <div class="search-box">
-      <input type="text" id="cityInput" placeholder="Enter city name" />
-      <button onclick="getWeather()">Check Weather</button>
+    <div class="container">
+        <h1>Weather Insight 🌦️</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name" />
+        <button onclick="manualSearch()">Get Weather</button>
+        <div id="weatherInfo"></div>
     </div>
-    <div class="weather-info" id="weatherInfo">
-      <!-- Weather info will appear here -->
-    </div>
-  </div>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
